@@ -1,59 +1,44 @@
-Java8InAction
-===============
+# Java8InAction example source
+===========================================================================
+* 모던 자바 인 액션 example source 자료 입니다.
+* 공부하기 위한 자료이며 출처는 하단에 기재하였습니다.
+### Part Ⅰ 기초
 
-This repository contains all the source code for the examples and quizzes in the book Java 8 in Action: Lambdas, Streams and functional-style programming.
+* chap01 - 자바 8, 9, 10, 11 : 무슨 일이 일어나고 있는가
+* chap02 - 동작 파라미터화 코드 전달하기
+* chap03 - 람다 표현식
 
-You can purchase the book here: [http://manning.com/urma/](http://manning.com/urma/) or on Amazon
+### Part Ⅱ 함수형 데이터 처리
 
-The source code for all examples can be found in the directory [src/main/java/lambdasinaction](https://github.com/java8/Java8InAction/tree/master/src/main/java/lambdasinaction)
+* chap04 - 스트림 소개
+* chap05 - 스트림 활용
+* chap06 - 스트림으로 데이터 수집
+* chap07 - 병렬 데이터 처리와 성능
 
-* Chapter 1: Java 8: why should you care?
-* Chapter 2: Passing code with behavior parameterization
-* Chapter 3: Lambda expressions
-* Chapter 4: Working with Streams
-* Chapter 5: Processing data with streams
-* Chapter 6: Collecting data with streams
-* Chapter 7: Parallel data processing and performance
-* Chapter 8: Refactoring, testing, debugging
-* Chapter 9: Default methods
-* Chapter 10: Using Optional as a better alternative to null
-* Chapter 11: CompletableFuture: composable asynchronous programming
-* Chapter 12: New Date and Time API
-* Chapter 13: Thinking functionally
-* Chapter 14: Functional programming techniques
-* Chapter 15: Blending OOP and FP: comparing Java 8 and Scala
-* Chapter 16: Conclusions and "where next" for Java
-* Appendix A: Miscellaneous language updates
-* Appendix B: Miscellaneous library updates
-* Appendix C: Performing multiple operations in parallel on a Stream
-* Appendix D: Lambdas and JVM bytecode
-We will update the repository as we update the book. Stay tuned!
+### Part Ⅲ 스트림과 람다를 이용한 효과적 프로그래밍
 
-### Make sure to have JDK8 installed
-The latest binary can be found here: http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html
+* chap08 - 컬렉션 API 개선
+* chap09 - 리팩터링, 테스팅, 디버깅
+* chap10 - 람다를 이용한 도메인 전용 언어
 
-$ java -version
+### Part Ⅳ 매일 자바와 함께
 
-java version "1.8.0_05"
-Java(TM) SE Runtime Environment (build 1.8.0_05-b13)
-Java HotSpot(TM) 64-Bit Server VM (build 25.5-b02, mixed mode)
+* chap11 - null 대신 Optional 클래스
+* chap12 - 새로운 날짜와 시간 API
+* chap13 - 디폴트 메서드
+* chap14 - 자바 모듈 시스템
 
+### Part Ⅴ 개선된 자바 동시성
 
-You can download a preview version here: https://jdk8.java.net/
+* chap15 - CompletableFuture와 리액티브 프로그래밍 컨셉의 기초
+* chap16 - CompletableFuture : 안정적 비동기 프로그래밍
+* chap17 - 리액티브 프로그래밍
 
-### Compile/Run the examples
-Using maven:
+### Part Ⅵ 함수형 프로그래밍과 자바 진화의 미래
+* chap18 - 함수형 관점으로 생각하기
+* chap19 - 함수형 프로그래밍 기법
+* chap20 - OOP와 FP의 조화 : 자바와 스칼라 비교
 
-$ mvn compile
+===========================================================================
 
-$ cd target/classes
-
-$ java lambdasinaction/chap1/FilteringApples
-
-
-Alternatively you can compile the files manually inside the directory src/main/java
-
-You can also import the project in your favorite IDE:
-    * In IntelliJ use "File->Open" menu and navigate to the folder where the project resides
-    * In Eclipse use "File->Import->Existing Maven Projects" (also modify "Reduntant super interfaces" to report as Warnings instead of Errors
-    * In Netbeans use "File->Open Project" menu
+* 출처 : https://hanbit.co.kr/support/supplement_survey.html?pcode=B4926602499 
